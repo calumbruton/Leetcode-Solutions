@@ -14,7 +14,7 @@ class Solution(object):
                 # If target in sorted lower half decrease high
                 if target < nums[mid] and target >= nums[l]:
                     h = mid-1
-                # Else decrease low
+                # Else increase low
                 else:
                     l = mid + 1
             
